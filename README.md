@@ -1,1 +1,1 @@
-# logica-matematica
+#exercicios-logica-de-programacao
