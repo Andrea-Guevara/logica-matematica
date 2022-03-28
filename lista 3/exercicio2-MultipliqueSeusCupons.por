@@ -1,17 +1,15 @@
 programa
-{ //O programa "Educado" irá perguntar seu nome, e também como você gostaria de ser chamado. 
-//Depois disso uma saudação para você aparece na tela.
+{//O “Programa de fidelidade” aumentou o sistema, criando o botão “Multiplique seus pontos”. 
+//O cliente irá digitar quantos cupons tem, e o sistema irá triplicar o valor.
 
 	
 	funcao inicio()
-	{
-		cadeia apelhido, nome
-
-		escreva("qual é seu nome ")
-		leia(nome)
-		escreva("como voce gostaria de ser chamado? ")
-		leia(apelhido)
-		escreva("ola ", apelhido)
+	{ inteiro cupons
+		escreva("  *Multiplique seus pontos*  \n")
+		escreva("digite quantos cupons voce tem: ")
+		leia(cupons)
+		escreva("seus cupons agora valem ", cupons*3 , " pontos!")
+		
 		
 	}
 }
@@ -20,7 +18,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 335; 
+ * @POSICAO-CURSOR = 382; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
